@@ -8,7 +8,7 @@ shinyServer(
       }
       else if (input$radio == 2) {
         paste(input$temp, "Celsius =", round(input$temp * 9/5 + 32,1), "Fahrenheit")
-        }
+      }
 
     })
   }
